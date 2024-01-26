@@ -13,7 +13,9 @@ int main(){
     cout<<y<<endl;
     int size=sizeof(a);
     cout<<size<<endl;
-    int d='a';
+    int d='a';//type casting
     cout<<d<<endl;
-    
+    char ch=98;//this will convert it into a charatcter 
+    cout<<ch<<endl;
+
 }
