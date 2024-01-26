@@ -109,16 +109,87 @@ int main(){
     // }
 
     //10 th pattern
+    // while(i<=n){
+    //     int j=1;
+    //     int count =i;
+    //     while(j<=i){
+    //         cout<<count<<" ";
+    //         count++;
+    //         j=j+1;
+    //     }
+    //     cout<<endl;
+    //     i=i+1;
+    // }
+
+    //10 th alternate pattern 
+    //  while(i<=n){
+    //     int j=i;
+    //     while(j<2*i){
+    //         cout<<j<<" ";
+    //         j=j+1;
+    //     }
+    //     cout<<endl;
+    //     i=i+1;
+    //  }
+
+    //11 th pattern 
+    //  while(i<=n){
+    //     int j=1;
+    //     while(j<=i){
+    //         cout<<i-j+1<<" ";
+    //         j=j+1;
+    //     }
+    //     cout<<endl;
+    //     i=i+1;
+    // }
+
+    // 12 th pattern
+    //  while(i<=n){
+    //     int j=1;
+    //     while(j<=n){
+    //         char ch='A'+i-1;
+    //         cout<<ch<<" ";
+    //         j=j+1;
+    //     }
+    //     cout<<endl;
+    //     i=i+1;
+    // }
+
+    // 13 th pattern 
+    // while(i<=n){
+    //     int j=1;
+    //     while(j<=n){
+    //         char ch='A'+j-1;
+    //         cout<<ch<<" ";
+    //         j=j+1;
+    //     }
+    //     cout<<endl;
+    //     i=i+1;
+    // }
+
+    //14 th pattern 
+    // char ch='A';
+    // while(i<=n){
+    //     int j=1;
+    //     while(j<=n){
+    //         cout<<ch<<" ";
+    //         ch++;
+    //         j=j+1;
+    //     }
+    //     cout<<endl;
+    //     i=i+1;
+    // }
+
+    //15 th pattern 
     while(i<=n){
         int j=1;
-        int count =i;
-        while(j<=i){
-            cout<<count<<" ";
-            count++;
+        char ch ='A'+i-1;
+        while(j<=n){
+            cout<<ch<<" ";
+            ch++;
             j=j+1;
         }
         cout<<endl;
         i=i+1;
     }
-
 }
