@@ -181,15 +181,52 @@ int main(){
     // }
 
     //15 th pattern 
+    // while(i<=n){
+    //     int j=1;
+    //     char ch ='A'+i-1;
+    //     while(j<=n){
+    //         cout<<ch<<" ";
+    //         ch++;
+    //         j=j+1;
+    //     }
+    //     cout<<endl;
+    //     i=i+1;
+    // }
+
+    //16 th pattern
+    // char ch='A';
+    //  while(i<=n){
+    //     int j=1;
+    //     while(j<=i){
+    //         cout<<ch<<" ";
+    //         ch++;
+    //         j=j+1;
+    //     }
+    //     cout<<endl;
+    //     i=i+1;
+    // }
+
+    //17 th pattern
     while(i<=n){
+        int k=n-i;
+        while(k>=0){
+            cout<<" ";
+            k--;
+        }
         int j=1;
-        char ch ='A'+i-1;
-        while(j<=n){
-            cout<<ch<<" ";
-            ch++;
-            j=j+1;
+        while(j<=i)
+        {
+            cout<<j<<" ";
+            j++;
+        }
+        int f=i-1;
+        while(f>0)
+        {
+            cout<<f<<" ";
+            f--;
         }
         cout<<endl;
-        i=i+1;
+        i++;
     }
+
 }
